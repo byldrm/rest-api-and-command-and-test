@@ -20,7 +20,7 @@ class AuthController extends BaseController
         $user = User::create($input);
 
         $data['name'] = $user->name;
-        $data['token'] = $user->createToken('YengecAuth')->accessToken;
+        $data['token'] = $user->createToken('ApiAuth')->accessToken;
         return $this->sendResponse($data, 'Kullanıcı başarıyla kaydedildi');
     }
 
@@ -36,7 +36,7 @@ class AuthController extends BaseController
 
         if (auth()->attempt($data)) {
             $user = Auth::user();
-            $success['token'] = $user->createToken('YengecAuth')->accessToken;
+            $success['token'] = $user->createToken('ApiAuth')->accessToken;
             $success['name'] = $user->name;
 
             return $this->sendResponse($success, 'Kullanıcı girişi başarılı.');

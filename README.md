@@ -13,9 +13,9 @@
 
 Aşıdaki satırları sırayla komut satırında çalıştırın.
 
-    git clone https://github.com/byldrm/yengec-task
+    git clone https://github.com/byldrm/rest-api-and-command-and-test
     
-    cd yengec-task
+    cd rest-api-and-command-and-test
     
     composer update
 
