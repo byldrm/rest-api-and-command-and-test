@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-#Yengeç Task
+#Test
 
 
 
@@ -45,13 +45,13 @@ Aşıdaki kodu komut satırında çalıştırarak testleri başlatın
     php artisan test
 
 Postman Collections
-https://www.getpostman.com/collections/7e7acee0867ca44789b1
+https://www.getpostman.com/collections/ef3bbc4a8ba3be08e6dd
 
 Postman Environment (postman AuthToken ve localBaseUrl değişkenleri için bunu postmane import edin.)
     
     {
-	"id": "4167dee7-c62c-48e7-8da9-e4ff525e6ee3",
-	"name": "Yengeç Task",
+	"id": "e732ea5f-4af6-4736-8075-929d69384879",
+	"name": "Test",
 	"values": [
 		{
 			"key": "AuthToken",
@@ -67,8 +67,8 @@ Postman Environment (postman AuthToken ve localBaseUrl değişkenleri için bunu
 		}
 	],
 	"_postman_variable_scope": "environment",
-	"_postman_exported_at": "2022-06-07T13:48:23.450Z",
-	"_postman_exported_using": "Postman/9.20.3"
+	"_postman_exported_at": "2022-06-10T14:44:14.040Z",
+	"_postman_exported_using": "Postman/9.21.2"
     }
 
     
